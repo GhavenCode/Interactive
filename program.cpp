@@ -25,10 +25,11 @@ int main()
             {
                 cout<<fail<<endl;
             }
-   cout<<endl;
-   cout<<endl;
+                cout<<endl;
+                cout<<endl;
             
-            
+                cout<<"Please try again or enter 'E' to exit:";
+                cin>>option; 
         
         }while(option!='E');
     
