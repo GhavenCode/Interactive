@@ -10,12 +10,12 @@ int main()
     string fail ="Incorrect!";
     string pass = "Correct";
     
-     cout<<"Choose the correct answer or enter 'E' to exit"<<endl;
-        <<"Which company do we work for?"<<endl;
-        <<"A Nedbank"<<endl;
-        <<"B ABSA"<<endl;
-        <<"C Tech Mahindra"<<endl;
-        <<"D FNB"<<endl<<endl;
+     cout<<"Choose the correct answer or enter 'E' to exit<<endl;
+        <<"Which company do we work for?<<endl;
+        <<A Nedbank<<endl;
+        <<B ABSA<<endl;
+        <<C Tech Mahindra<<endl;
+        <<D FNB"<<endl;
         cin>>option;
 
     do
