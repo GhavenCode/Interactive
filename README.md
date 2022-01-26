@@ -1,37 +1,8 @@
 # Interactive
 Interactive code in C++ coding language.
-#include <iostream>
-#include<string>
 
-using namespace std;
+By using do while loop, write  a program to prompt the user to choose
+the correct answer from a list of answer choices of a question.
 
-int main()
-{
-  string name;
-  char option;
-  
-    cout<<"choose the correct answer"<<endl
-        <<"which company do zzwivhu ,dithetho and stewart work for!"<<endl
-        <<"A They work for Nedbank"<<endl
-        <<"B They work for ABSA"<<endl
-        <<"C They work for Tech Mahindra"<<endl
-        <<"D They work for FNB"<<endl<<endl;
-        cin>>option;
-        
-        while(option!='E')
-    {
-  
-  
-  
-       
-  
-       cout<<endl;
-            
-        cout<<"Please enter again:";
-        cin>>option;
-        
-        }
-    
-    system("pause");
-    return 0;
-}
+Write a  code to prompt a user to input his/her
+name and then the output will be shown as an example below:Hello John!
