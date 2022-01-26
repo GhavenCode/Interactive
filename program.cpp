@@ -11,7 +11,7 @@ int main()
     string pass = "Correct";
     
 
-    while(option!='E')
+    do
     {
     
             if(option=='C'|| option=='c')
@@ -31,7 +31,7 @@ int main()
             cout<<"Please enter again:";
             cin>>option;
         
-        }
+        }while(option!='E');
     
     system("pause");
     return 0;
