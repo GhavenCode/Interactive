@@ -7,6 +7,8 @@ int main()
 {
     string name;
     char option;
+    string fail ="Incorrect!";
+    string pass = "Correct";
     
 
     while(option!='E')
