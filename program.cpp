@@ -9,6 +9,8 @@ int main()
     char option;
     
 
+    while(option!='E')
+    {
     
             if(option=='A')
             {
@@ -29,7 +31,13 @@ int main()
             {
                 cout<<"incorrect"<<endl;
             }
-
+   cout<<endl;
+   cout<<endl;
+            
+            cout<<"Please enter again:";
+            cin>>option;
+        
+        }
     
     system("pause");
     return 0;
