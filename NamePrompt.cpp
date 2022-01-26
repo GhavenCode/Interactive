@@ -7,7 +7,13 @@ using namespace std;
 
 int main()
 {
-  
+   int i;
+    char name[32];
+    cout<<"\nPlease Enter your name: ";
+    cin>>(name);
+
+    int len = strlen(name);
+
   
       for(i=0;i<len;i++)
     {
