@@ -28,8 +28,7 @@ int main()
    cout<<endl;
    cout<<endl;
             
-            cout<<"Please enter again:";
-            cin>>option;
+            
         
         }while(option!='E');
     
