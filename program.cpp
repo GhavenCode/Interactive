@@ -11,11 +11,11 @@ int main()
     string pass = "Correct";
     
      cout<<"Choose the correct answer or enter 'E' to exit<<endl;
-        <<"Which company do we work for?<<endl;
-        <<A Nedbank<<endl;
-        <<B ABSA<<endl;
-        <<C Tech Mahindra<<endl;
-        <<D FNB"<<endl;
+        <<"Which company do we work for?"<<endl
+        <<"A Nedbank"<<endl
+        <<"B ABSA"<<endl
+        <<C "Tech Mahindra"<<endl
+        <<D "FNB"<<endl;
         cin>>option;
 
     do
