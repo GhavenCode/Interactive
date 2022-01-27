@@ -38,7 +38,7 @@ int main()
         }
     }
   
-  
+    cout<<"\nHello "<<name<<"!\n";
   
     system("pause");
     return 0;
